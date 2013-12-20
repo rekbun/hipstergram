@@ -20,6 +20,7 @@ import android.widget.TextView;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.sql.SQLException;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Timer;
@@ -44,6 +45,11 @@ public class NewPic extends Activity {
         longitude=(TextView)findViewById(R.id.longitude);
         latitude=(TextView)findViewById(R.id.latitude);
         dataSource=new ImageDataSource(this);
+        try {
+            dataSource.open();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
 
