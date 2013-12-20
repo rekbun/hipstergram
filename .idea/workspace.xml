@@ -15,8 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a95b6b1-56e3-49e2-8b75-ddbd493c6af2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/assignment/hipstergram/SQLiteHelper.java" afterPath="$PROJECT_DIR$/src/com/assignment/hipstergram/SQLiteHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java" afterPath="$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/assignment/hipstergram/NewPic.java" afterPath="$PROJECT_DIR$/src/com/assignment/hipstergram/NewPic.java" />
     </list>
     <ignored path="hipstergram.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,10 +123,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="NewPic.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="NewPic.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/NewPic.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="125" column="0" selection-start="4640" selection-end="4640" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="2025">
+                <state line="134" column="12" selection-start="4844" selection-end="4864" vertical-scroll-proportion="0.6" vertical-offset="1830" max-vertical-offset="2265">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -200,10 +200,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ListViewActivity.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="ListViewActivity.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="51" selection-start="670" selection-end="670" vertical-scroll-proportion="0.5" vertical-offset="195" max-vertical-offset="600">
+                <state line="44" column="13" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="840">
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#739#751#0" expanded="true" />
@@ -240,16 +240,16 @@
         <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/Db.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/SQLLiteHelper.java" />
         <option value="$PROJECT_DIR$/res/layout/listview.xml" />
-        <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/ShowImage.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/ImageStore.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/newpic.xml" />
-        <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/NewPic.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/ImageBlock.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/ImageDataSource.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/Main.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/SQLiteHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/NewPic.java" />
       </list>
     </option>
   </component>
@@ -679,15 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/NewPic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="0" selection-start="4640" selection-end="4640" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="2025">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="30" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="480">
@@ -716,10 +707,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="51" selection-start="670" selection-end="670" vertical-scroll-proportion="0.5" vertical-offset="195" max-vertical-offset="600">
+        <state line="44" column="13" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="840">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#739#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/NewPic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="12" selection-start="4844" selection-end="4864" vertical-scroll-proportion="0.6" vertical-offset="1830" max-vertical-offset="2265">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

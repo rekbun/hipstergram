@@ -126,4 +126,20 @@ public class NewPic extends Activity {
         dataSource.saveImage(imageinfo);
         finish();
     }
+
+    @Override
+    protected void onResume() {
+        try {
+            dataSource.open();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        super.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        dataSource.close();
+        super.onPause();
+    }
 }
