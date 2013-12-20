@@ -1,6 +1,8 @@
 package com.assignment.hipstergram;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,7 +34,31 @@ public class SimpleArrayAdapter extends ArrayAdapter<ImageBlock> {
         TextView date=(TextView)rowView.findViewById(R.id.date);
         textView.setText(values.get(position).getTitle());
         date.setText(values.get(position).getDate());
-        imageView.setImageURI(Uri.parse(values.get(position).getPath()));
+        final int REQUIRED_SIZE=70;
+        BitmapFactory.Options o = new BitmapFactory.Options();
+        o.inJustDecodeBounds = false;
+        o.inPreferredConfig = Bitmap.Config.RGB_565;
+        o.inDither = true;
+        int width_tmp=o.outWidth, height_tmp=o.outHeight;
+        int scale=6;
+        while(true){
+            if(width_tmp/2<REQUIRED_SIZE || height_tmp/2<REQUIRED_SIZE)
+            break;
+            width_tmp/=2;
+            height_tmp/=2;
+            scale*=2;
+        }
+
+        //decode with inSampleSize
+        BitmapFactory.Options o2 = new BitmapFactory.Options();
+        o2.inSampleSize=scale;
+        o.inJustDecodeBounds = false;
+        o.inPreferredConfig = Bitmap.Config.RGB_565;
+        o.inDither = true;
+
+        Bitmap bitmap = BitmapFactory.decodeFile(values.get(position).getPath(), o2);
+
+        imageView.setImageBitmap(bitmap);
         return rowView;
     }
 }

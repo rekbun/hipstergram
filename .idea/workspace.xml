@@ -15,9 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a95b6b1-56e3-49e2-8b75-ddbd493c6af2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/assignment/hipstergram/SimpleArrayAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/rowlayout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java" afterPath="$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/assignment/hipstergram/SimpleArrayAdapter.java" afterPath="$PROJECT_DIR$/src/com/assignment/hipstergram/SimpleArrayAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hipstergram.iws" />
@@ -104,7 +102,7 @@
           <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="46" selection-start="838" selection-end="838" vertical-scroll-proportion="0.62030077" vertical-offset="0" max-vertical-offset="532">
+                <state line="14" column="15" selection-start="364" selection-end="364" vertical-scroll-proportion="0.22556391" vertical-offset="0" max-vertical-offset="480">
                   <folding />
                 </state>
               </provider>
@@ -202,10 +200,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SimpleArrayAdapter.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="SimpleArrayAdapter.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/SimpleArrayAdapter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="35" column="0" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+                <state line="44" column="26" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.45454547" vertical-offset="560" max-vertical-offset="1050">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -225,10 +223,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ListViewActivity.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="ListViewActivity.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="26" selection-start="708" selection-end="708" vertical-scroll-proportion="0.4218107" vertical-offset="155" max-vertical-offset="840">
+                <state line="24" column="26" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="840">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -274,8 +272,8 @@
         <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/SQLiteHelper.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/NewPic.java" />
         <option value="$PROJECT_DIR$/res/layout/rowlayout.xml" />
-        <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/SimpleArrayAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/SimpleArrayAdapter.java" />
       </list>
     </option>
   </component>
@@ -588,7 +586,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10747664" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.52180684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -714,13 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="46" selection-start="838" selection-end="838" vertical-scroll-proportion="0.62030077" vertical-offset="0" max-vertical-offset="532">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/NewPic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="138" column="0" selection-start="4907" selection-end="4907" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2265">
@@ -750,18 +741,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/SimpleArrayAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+        <state line="14" column="15" selection-start="364" selection-end="364" vertical-scroll-proportion="0.22556391" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="26" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="840">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/SimpleArrayAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="26" selection-start="708" selection-end="708" vertical-scroll-proportion="0.4218107" vertical-offset="155" max-vertical-offset="840">
+        <state line="44" column="26" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.45454547" vertical-offset="560" max-vertical-offset="1050">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
