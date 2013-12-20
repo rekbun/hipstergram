@@ -15,8 +15,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a95b6b1-56e3-49e2-8b75-ddbd493c6af2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/assignment/hipstergram/SimpleArrayAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/rowlayout.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java" afterPath="$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/assignment/hipstergram/NewPic.java" afterPath="$PROJECT_DIR$/src/com/assignment/hipstergram/NewPic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hipstergram.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,19 +101,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.45640475">
       <split-first>
         <leaf>
-          <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="30" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="480">
+                <state line="32" column="46" selection-start="838" selection-end="838" vertical-scroll-proportion="0.62030077" vertical-offset="0" max-vertical-offset="532">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SQLiteHelper.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="SQLiteHelper.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/SQLiteHelper.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="39" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.55780345" vertical-offset="122" max-vertical-offset="735">
+                <state line="21" column="39" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="735">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -123,10 +125,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="NewPic.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="NewPic.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/NewPic.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="134" column="12" selection-start="4844" selection-end="4864" vertical-scroll-proportion="0.6" vertical-offset="1830" max-vertical-offset="2265">
+                <state line="138" column="0" selection-start="4907" selection-end="4907" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2265">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -191,7 +193,7 @@
           <file leaf-file-name="ImageDataSource.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/ImageDataSource.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="69" column="0" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="1395">
+                <state line="66" column="28" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.0" vertical-offset="890" max-vertical-offset="1395">
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#2323#2335#0" expanded="true" />
@@ -200,13 +202,35 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ListViewActivity.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java">
+          <file leaf-file-name="SimpleArrayAdapter.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/SimpleArrayAdapter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="44" column="13" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="840">
+                <state line="35" column="0" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#739#751#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="rowlayout.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/res/layout/rowlayout.xml">
+              <provider editor-type-id="android-designer">
+                <state />
+              </provider>
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="26" column="25" selection-start="1111" selection-end="1111" vertical-scroll-proportion="-3.1730769" vertical-offset="225" max-vertical-offset="765">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ListViewActivity.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="24" column="26" selection-start="708" selection-end="708" vertical-scroll-proportion="0.4218107" vertical-offset="155" max-vertical-offset="840">
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -248,8 +272,10 @@
         <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/ImageDataSource.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/Main.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/SQLiteHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/NewPic.java" />
+        <option value="$PROJECT_DIR$/res/layout/rowlayout.xml" />
+        <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/SimpleArrayAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java" />
       </list>
     </option>
   </component>
@@ -374,7 +400,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="215" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="52" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -562,7 +588,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39719626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10747664" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -679,16 +705,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/SQLiteHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="39" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="735">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="30" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="480">
+        <state line="32" column="46" selection-start="838" selection-end="838" vertical-scroll-proportion="0.62030077" vertical-offset="0" max-vertical-offset="532">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/NewPic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="0" selection-start="4907" selection-end="4907" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2265">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/ImageDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="1395">
+        <state line="66" column="28" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.0" vertical-offset="890" max-vertical-offset="1395">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2323#2335#0" expanded="true" />
@@ -696,9 +740,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/SQLiteHelper.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/rowlayout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.55780345" vertical-offset="122" max-vertical-offset="735">
+        <state line="26" column="25" selection-start="1111" selection-end="1111" vertical-scroll-proportion="-3.1730769" vertical-offset="225" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/SimpleArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -707,17 +761,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/ListViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="13" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="840">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#739#751#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/assignment/hipstergram/NewPic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="12" selection-start="4844" selection-end="4864" vertical-scroll-proportion="0.6" vertical-offset="1830" max-vertical-offset="2265">
+        <state line="24" column="26" selection-start="708" selection-end="708" vertical-scroll-proportion="0.4218107" vertical-offset="155" max-vertical-offset="840">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

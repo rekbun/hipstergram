@@ -22,7 +22,7 @@ public class ListViewActivity extends ListActivity {
             e.printStackTrace();
         }
         List<ImageBlock> values=dataSource.getAllImagesInfo();
-        ArrayAdapter<ImageBlock> adapter=new ArrayAdapter<ImageBlock>(this,android.R.layout.simple_list_item_1,values);
+        SimpleArrayAdapter adapter=new SimpleArrayAdapter(this,android.R.layout.simple_list_item_1,values);
         setListAdapter(adapter);
     }
 
