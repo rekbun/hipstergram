@@ -8,7 +8,20 @@ public class ImageBlock {
     public String longitude;
     public String latitude;
     public String path;
-    public Date date;
+    public String date;
+
+    public ImageBlock(String title, String longitude, String latitude, String path, String  date) {
+        this.title = title;
+        this.longitude = longitude;
+        this.latitude = latitude;
+        this.path = path;
+        this.date = date;
+    }
+
+    public ImageBlock() {
+
+    }
+
 
     public long getId() {
         return id;
@@ -50,11 +63,11 @@ public class ImageBlock {
         this.path = path;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 }

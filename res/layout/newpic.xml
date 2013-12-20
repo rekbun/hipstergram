@@ -7,22 +7,48 @@
 
     <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="300dp"
             android:id="@+id/imageView"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/ic_launcher"
             />
-    <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="date"
-            android:ems="10"
-            android:id="@+id/date" android:layout_gravity="center_horizontal" android:layout_marginTop="10dp"/>
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/date" android:layout_gravity="center_horizontal" android:layout_marginTop="10dp"
+                    android:layout_span="2"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="no longi"
+                    android:ems="10"
+                    android:id="@+id/longitude" android:layout_gravity="center_horizontal" android:layout_marginTop="10dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="no lati"
+                    android:ems="10"
+                    android:id="@+id/latitude" android:layout_gravity="center_horizontal" android:layout_marginTop="10dp"/>
+        </TableRow>
+    </TableLayout>
+
     <EditText
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:hint="give a file name to save"
-            android:id="@+id/editText"
+            android:id="@+id/fileName"
             android:layout_gravity="center_horizontal"
             />
     <Button
