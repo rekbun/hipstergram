@@ -21,8 +21,8 @@ public class SQLiteHelper extends SQLiteOpenHelper {
             + " text not null, "
             + COLUMN_LATITUDE +" TEXT,"
             + COLUMN_LONGITUDE+" TEXT,"
-            + COLUMN_PATH+"TEXT,"
-            +COLUMN_DATE+"TEXT);";
+            + COLUMN_PATH+" TEXT,"
+            +COLUMN_DATE+" TEXT);";
 
     public SQLiteHelper(Context context) {
         super(context,DATABASE_NAME,null, DATABASE_VERSION);
