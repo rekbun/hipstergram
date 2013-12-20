@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Click a new Pic"
+            android:id="@+id/newPic" android:layout_gravity="center_horizontal" android:layout_marginTop="100dp"
+            android:onClick="clickNewPic"
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Clicked Pics"
+            android:id="@+id/storedPics" android:layout_gravity="center_horizontal" android:layout_marginTop="20dp"
+            android:onClick="showClickedPics"
+            />
+</LinearLayout>
+
