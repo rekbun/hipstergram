@@ -1,6 +1,7 @@
 package com.assignment.hipstergram;
 
 import java.util.Date;
+import java.util.UUID;
 
 public class ImageBlock {
     public long id;
@@ -32,6 +33,9 @@ public class ImageBlock {
     }
 
     public String getTitle() {
+        if(title==null||title.length()==0) {
+            title= UUID.randomUUID().toString();
+        }
         return title;
     }
 

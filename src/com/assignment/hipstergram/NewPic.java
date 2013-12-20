@@ -124,5 +124,6 @@ public class NewPic extends Activity {
     public void saveImage(View view) {
         ImageBlock imageinfo=new ImageBlock(((EditText)findViewById(R.id.fileName)).getText().toString(),longitude.getText().toString(),latitude.getText().toString(),getImgPath(imageCaptureUri),date.getText().toString());
         dataSource.saveImage(imageinfo);
+        finish();
     }
 }
