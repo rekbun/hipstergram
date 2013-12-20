@@ -19,9 +19,9 @@ public class SQLiteHelper extends SQLiteOpenHelper {
             + Table_ImageStore + "(" + COLUMN_ID
             + " integer primary key autoincrement, " + COLUMN_TITLE
             + " text not null, "
-            + COLUMN_LATITUDE +" TEXT,"
-            + COLUMN_LONGITUDE+" TEXT,"
-            + COLUMN_PATH+" TEXT,"
+            + COLUMN_LATITUDE +" TEXT, "
+            + COLUMN_LONGITUDE+" TEXT, "
+            + COLUMN_PATH+" TEXT, "
             +COLUMN_DATE+" TEXT);";
 
     public SQLiteHelper(Context context) {
