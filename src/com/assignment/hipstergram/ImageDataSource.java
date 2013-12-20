@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ImageDataSource {
@@ -55,12 +56,29 @@ public class ImageDataSource {
     private ImageBlock cursorToImageBlock(Cursor cursor) {
         ImageBlock picInfo = new ImageBlock();
         picInfo.setId(cursor.getLong(0));
-        //picInfo.(cursor.getString(1));
-        return null;
+        picInfo.setTitle(cursor.getString(1));
+        picInfo.setLatitude(cursor.getString(2));
+        picInfo.setLongitude(cursor.getString(3));
+        picInfo.setPath(cursor.getString(4));
+        picInfo.setDate(cursor.getString(5));
+        return picInfo;
     }
 
     public List<ImageBlock> getAllImagesInfo() {
-        return null;
+        List<ImageBlock> comments = new ArrayList<ImageBlock>();
+
+        Cursor cursor = database.query(SQLiteHelper.Table_ImageStore,
+                allColumns, null, null, null, null, null);
+
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+            ImageBlock comment = cursorToImageBlock(cursor);
+            comments.add(comment);
+            cursor.moveToNext();
+        }
+        // make sure to close the cursor
+        cursor.close();
+        return comments;
     }
 
     public void deleteImage(Long id) {

@@ -30,5 +30,7 @@ public class Main extends Activity {
 
 
     public void showClickedPics(View view) {
+        Intent intent=new Intent(this,ListViewActivity.class);
+        startActivity(intent);
     }
 }
