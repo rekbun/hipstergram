@@ -82,6 +82,7 @@ public class ImageDataSource {
     }
 
     public void deleteImage(Long id) {
-
+        database.delete(SQLiteHelper.Table_ImageStore, SQLiteHelper.COLUMN_ID
+                + " = " + id, null);
     }
 }

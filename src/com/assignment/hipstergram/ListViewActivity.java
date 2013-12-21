@@ -23,7 +23,7 @@ public class ListViewActivity extends ListActivity {
             e.printStackTrace();
         }
         values=dataSource.getAllImagesInfo();
-        SimpleArrayAdapter adapter=new SimpleArrayAdapter(this,android.R.layout.simple_list_item_1,values);
+        final SimpleArrayAdapter adapter=new SimpleArrayAdapter(this,android.R.layout.simple_list_item_1,values);
         setListAdapter(adapter);
         getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
@@ -33,6 +33,25 @@ public class ListViewActivity extends ListActivity {
                 openActivity(position);
             }
 
+        });
+
+        getListView().setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, final View view, final int position, long id) {
+                final ImageBlock item = (ImageBlock) parent.getItemAtPosition(position);
+                view.animate().setDuration(2000).alpha(0)
+                        .withEndAction(new Runnable() {
+                            @Override
+                            public void run() {
+                                dataSource.deleteImage(values.get(position).id);
+                                values.remove(item);
+                                adapter.notifyDataSetChanged();
+                                view.setAlpha(1);
+                               return;
+                            }
+                        });
+                return false;
+            }
         });
     }
 
