@@ -32,7 +32,7 @@
             android:layout_above="@id/date"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
-            android:id="@+id/date"
+            android:id="@+id/fileName"
             android:layout_alignWithParentIfMissing="true"
             android:layout_toRightOf="@id/icon"
             android:gravity="center_vertical"
